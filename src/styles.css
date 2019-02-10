@@ -1,8 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+
+/* global style */
 body{
     background-color: #eeeeee;
+    font-family: 'Crete Round', serif;
 }
-.work{
+
+/* colors */
+.bg-green {
+    background-color: #00897B;
+}
+.text-w {
+    color: #eeeeee !important;
+}
+
+/* boutton customize */
+.btn-orange {
+    background-color: #FB8C01;
+    color: #eeeeee;
+}
+.btn-outline {
     background-color: transparent;
-    border: 1px solid white;
+    color: #eeeeee;
+    border: 1px solid #eeeeee;
+}
+.btn-orange:hover, .btn-outline:hover {
+    background-color: #eeeeee;
+    color: #FB8C01;
 }

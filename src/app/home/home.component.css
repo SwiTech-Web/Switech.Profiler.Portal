@@ -1,0 +1,12 @@
+.bg-home {
+    background-image: url("../../assets/image/bg-home.jpeg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
+    min-height: 100%;
+  }
