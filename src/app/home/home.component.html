@@ -6,8 +6,13 @@
     <div>
         <form class="d-flex justify-content-center form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Catégorie" aria-label="Catégorie">
-            <input class="form-control mr-sm-2" type="search" placeholder="Prix" aria-label="Prix">
-            <button class="btn btn-orange my-2 my-sm-0" type="submit" routerLink="/project"><i class="fas fa-search"></i></button>
+            <div class="input-group">
+                <input class="form-control" type="search" placeholder="Prix" aria-label="Prix" aria-describedby="euro">
+                <div class="input-group-append">
+                    <span class="input-group-text mr-sm-2" id="euro"><i class="fas fa-euro-sign"></i></span>
+                </div>   
+            </div>
+            <button class="btn btn-orange" type="submit" routerLink="/project"><i class="fas fa-search"></i></button>
         </form>
     </div>
 </header>
