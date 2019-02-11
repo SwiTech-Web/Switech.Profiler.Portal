@@ -1,17 +1,20 @@
-<app-sidebar-menu></app-sidebar-menu>
+<!-- <app-sidebar-menu></app-sidebar-menu> -->
 <div class="project">
   <h3>project works!</h3> 
-  <div class="card horizontal">
-    <div class="card-image">
-      <img src="" alt="image">
-    </div>
-    <div class="card-stacked">
-      <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information.</p>
+  <div class="card container">
+      <div class="card-body row">
+        <div class="col-sm-2">
+          <img src="../../assets/image/bg-home.jpeg" class="card-img" alt="image of the project">
+        </div>
+        <div class="col-sm-2">
+          <h5 class="card-title">Card title</h5>
+        </div>
+        <div class="col-sm-6">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-orange" routerLink="/project-details">Voir le détail</button>
+        </div>
       </div>
-      <div class="card-action">
-        <a routerLink="/project-details">This is a link</a>
-      </div>
     </div>
-  </div>
 </div>

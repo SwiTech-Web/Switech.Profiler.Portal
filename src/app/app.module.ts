@@ -13,6 +13,7 @@ import { JobDocumentationComponent } from './job-documentation/job-documentation
 import { HeaderComponent } from './layout/header/header.component';
 import { HeaderMenuComponent } from './layout/header-menu/header-menu.component';
 import { SidebarMenuComponent } from './layout/sidebar-menu/sidebar-menu.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SidebarMenuComponent } from './layout/sidebar-menu/sidebar-menu.compone
     JobDocumentationComponent,
     HeaderComponent,
     HeaderMenuComponent,
-    SidebarMenuComponent
+    SidebarMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
