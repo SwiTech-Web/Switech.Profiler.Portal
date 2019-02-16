@@ -1,0 +1,10 @@
+{
+    "title": "Profiler",
+
+    "_comment": "HEADER MENU",
+
+    "home": "Home",
+    "project": "Project",
+    "service": "Services",
+    "connection": "Connection"
+}

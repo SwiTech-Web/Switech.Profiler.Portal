@@ -1,5 +1,9 @@
-.side-menu {
-    max-width: 18em;
-
-    background-color: #aaaaaa;
+.fixed-right {
+    background-color: #eeeeee;
+    margin: 4.1em 1em 0 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    box-shadow: -5px 0 5px -5px #333;
 }
