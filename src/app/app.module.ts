@@ -1,10 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule,  APP_INITIALIZER } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
 
-import { TranslateService } from './translate/translate.service';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './project/project.component';
@@ -16,12 +15,14 @@ import { HeaderComponent } from './layout/header/header.component';
 import { HeaderMenuComponent } from './layout/header-menu/header-menu.component';
 import { SidebarMenuComponent } from './layout/sidebar-menu/sidebar-menu.component';
 import { FooterComponent } from './layout/footer/footer.component';
-import { TranslatePipe } from './translate/translate.pipe';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 
-export function setupTranslateFactory(
-  service: TranslateService): Function {
-  return () => service.use('en');
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(httpClient: HttpClient) {
+  return new TranslateHttpLoader(httpClient);
 }
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,21 +36,20 @@ export function setupTranslateFactory(
     HeaderMenuComponent,
     SidebarMenuComponent,
     FooterComponent,
-    TranslatePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [
-    TranslateService,
-    {
-      provide: APP_INITIALIZER,
-      useFactory: setupTranslateFactory,
-      deps: [ TranslateService ],
-      multi: true
-    }
   ],
   bootstrap: [AppComponent]
 })

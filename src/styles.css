@@ -1,4 +1,3 @@
-@import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Crete+Round');
 
 /* global style */
@@ -8,9 +7,6 @@ body{
 }
 
 /* colors */
-.bg-green {
-    background-color: #00897B;
-}
 .text-w {
     color: #eeeeee !important;
 }
@@ -20,12 +16,8 @@ body{
     background-color: #FB8C01;
     color: #eeeeee;
 }
-.btn-outline {
-    background-color: transparent;
-    color: #eeeeee;
-    border: 1px solid #eeeeee;
-}
-.btn-orange:hover, .btn-outline:hover {
+
+.btn-orange:hover {
     background-color: #eeeeee;
     color: #FB8C01;
 }

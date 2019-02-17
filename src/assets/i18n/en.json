@@ -1,10 +1,21 @@
 {
     "title": "Profiler",
 
-    "_comment": "HEADER MENU",
+    "layout" : {
+        "header-menu" : {
+            "home": "Home",
+            "project": "Project",
+            "service": "Services",
+            "connection": "Connection"
+        },
 
-    "home": "Home",
-    "project": "Project",
-    "service": "Services",
-    "connection": "Connection"
+        "header": {
+            "work": "I want to work",
+            "project": "A project ?"
+        }
+    },
+    
+    "home" : {
+        "title": "Welcome on Profiler"
+    }
 }
