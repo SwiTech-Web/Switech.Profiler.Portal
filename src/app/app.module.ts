@@ -17,6 +17,7 @@ import { SidebarMenuComponent } from './layout/sidebar-menu/sidebar-menu.compone
 import { FooterComponent } from './layout/footer/footer.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ConnectionComponent } from './connection/connection.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -36,6 +37,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     HeaderMenuComponent,
     SidebarMenuComponent,
     FooterComponent,
+    ConnectionComponent,
   ],
   imports: [
     BrowserModule,

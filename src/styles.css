@@ -11,6 +11,10 @@ body{
     color: #eeeeee !important;
 }
 
+.info {
+    color: #138496 !important;
+}
+
 /* boutton customize */
 .btn-orange {
     background-color: #FB8C01;
@@ -20,9 +24,14 @@ body{
 .btn-orange:hover {
     background-color: #eeeeee;
     color: #FB8C01;
+    border: 1.5px solid #FB8C01;
 }
 
 /* useful */
+.card {
+    box-shadow: 2px 2px 12px #555;
+}
+
 .vertical-center {
     margin: 0;
     position: absolute;
