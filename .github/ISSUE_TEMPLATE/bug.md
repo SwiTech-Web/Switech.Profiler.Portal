@@ -1,3 +1,7 @@
+---
+title: 'Bug Report'
+labels: Bug
+---
 # Bug Report :page_facing_up:
 
 ## Explain :pencil:

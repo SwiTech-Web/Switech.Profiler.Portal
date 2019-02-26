@@ -5,7 +5,8 @@
     <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/blob/master/LICENSE"><img src="https://img.shields.io/github/license/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout&?cacheSeconds=60" /></a>
     <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/pulse"><img src="https://img.shields.io/github/repo-size/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
     <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/commits/master"><img src="https://img.shields.io/github/last-commit/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
-    <span><img src="https://img.shields.io/github/languages/top/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></span>
+    <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/tree/master/src"><img src="https://img.shields.io/github/languages/top/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
+    <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/graphs/contributors"><img src="https://img.shields.io/github/contributors/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
 </p>
 <br />
 

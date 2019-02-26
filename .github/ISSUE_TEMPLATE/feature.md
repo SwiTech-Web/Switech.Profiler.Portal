@@ -1,3 +1,7 @@
+---
+title: 'Feature Request'
+labels: Feature
+---
 # Feature Request :diamond_shape_with_a_dot_inside:
 
 ## Concept :thought_balloon:
