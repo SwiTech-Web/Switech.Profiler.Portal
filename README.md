@@ -1,4 +1,4 @@
-<h1 align="center">Profiler <img src="https://raw.githubusercontent.com/SwiTech-Web/Switech.Profiler.Portal/master/.github/UI_ASSETS/Switech-logo.png?sanitize=true" width="40" /></h1>
+<h1 align="center">Profiler Portal <img src="https://raw.githubusercontent.com/SwiTech-Web/Switech.Profiler.Portal/master/.github/UI_ASSETS/Switech-logo.png?sanitize=true" width="40" /></h1>
 
 <p align="center">
     <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/issues"><img src="https://img.shields.io/github/issues/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
