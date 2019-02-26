@@ -1,4 +1,13 @@
-# Profiler
+<h1 align="center">Profiler <img src="https://raw.githubusercontent.com/SwiTech-Web/Switech.Profiler.Portal/master/.github/UI_ASSETS/Switech-logo.png?sanitize=true" width="40" /></h1>
+
+<p align="center">
+    <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/issues"><img src="https://img.shields.io/github/issues/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
+    <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
+    <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/pulse"><img src="https://img.shields.io/github/repo-size/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
+    <a href="https://github.com/SwiTech-Web/Switech.Profiler.Portal/commits/master"><img src="https://img.shields.io/github/last-commit/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></a>
+    <span><img src="https://img.shields.io/github/languages/top/SwiTech-Web/Switech.Profiler.Portal.svg?style=popout" /></span>
+</p>
+<br />
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
@@ -25,5 +34,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-test`
