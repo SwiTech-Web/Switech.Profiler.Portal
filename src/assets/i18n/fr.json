@@ -17,5 +17,9 @@
 
     "home" : {
         "title": "Bienvenue sur Profiler"
+    },
+
+    "project" : {
+        "newProject" : "Nouveau Projet"
     }
 }
